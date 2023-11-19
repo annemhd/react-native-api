@@ -21,7 +21,7 @@ public class Messages {
 
     private String message;
 
-    private String image;
+    // private String image;
 
     private LocalDateTime created_at = LocalDateTime.now();
 
@@ -49,13 +49,13 @@ public class Messages {
         this.message = message;
     }
 
-    public String getImage() {
-        return image;
-    }
+    // public String getImage() {
+    // return image;
+    // }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
+    // public void setImage(String image) {
+    // this.image = image;
+    // }
 
     public LocalDateTime getCreated_at() {
         return created_at;
