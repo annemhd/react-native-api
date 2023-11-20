@@ -29,11 +29,6 @@ public class UsersController {
         return userRepository.findAll();
     }
 
-    // @GetMapping(path = "/users")
-    // public String getAllUsers() {
-    // return "coucou";
-    // }
-
     @GetMapping(path = "/user/{id}")
     public @ResponseBody Optional<Users> getUser(@PathVariable Integer id) {
         return userRepository.findById(id);
